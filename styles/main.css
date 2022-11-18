@@ -1,0 +1,44 @@
+body {
+	font-family: 'PT Sans Narrow', 'Arial',sans-serif;
+	font-size: 1.2rem;
+	margin: 0;
+	max-width: 100%;
+	background: #fff;
+	box-sizing: border-box;
+	background-image: linear-gradient(75deg, #f7af28, #f77028);
+}
+
+* {
+	box-sizing: inherit;
+}
+
+#my-container {
+	margin: auto;
+	max-width: 40rem;
+	text-align: center;
+}
+
+#map {
+	height: 400px;
+	width: 100%;
+	margin: 3.5rem 0rem;
+	border: 1px solid #000;
+	}
+
+	#map2 {
+		height: 400px;
+		width: 100%;
+		margin: 3.5rem 0rem;
+		border: 1px solid #000;
+		}
+
+.text-content {
+	max-width: 30rem;
+	margin: auto;
+}
+
+.empty {
+	height: 13.5rem;
+}
+
+@media screen and (max-width: 100rem) {}
